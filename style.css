@@ -46,9 +46,9 @@
       }
 
 /*modificar el color del fondo*/
-.container__main--fondo{
+/* .container__main--fondo{
     min-height: 100%;
-    }
+    } */
 /*color del fondo body*/
 
 
@@ -76,9 +76,9 @@ animation: AnimateBG 20s ease infinite;
 }
    /*imagen del perfil*/
    #img-profile{
-    max-width: 19rem;
+    max-width: 15rem;
     max-height: auto;
-    border-radius: 1%;
+    
     
    }
 
@@ -86,11 +86,12 @@ animation: AnimateBG 20s ease infinite;
     background-color: #F1F1F1;
 }
  
+a{
+  color: white !important ;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bolder;
+}
 
-  body {
-    margin: 0;
-    /* min-height: 100%; */
-  }
   
   /**
    * Render the `main` element consistently in IE.
@@ -112,7 +113,7 @@ animation: AnimateBG 20s ease infinite;
     font-family: 'Dosis', sans-serif;
   }
   h1 {
-    font-size: 2em;
+    font-size: 3em;
     margin: 0.67em 0;
   }
   
@@ -225,6 +226,7 @@ animation: AnimateBG 20s ease infinite;
   img {
     border-style: none;
   }
+
   
   /* Forms
      ========================================================================== */
@@ -424,3 +426,22 @@ animation: AnimateBG 20s ease infinite;
   [hidden] {
     display: none;
   }
+
+@media screen and (min-width:500px) and (max-width: 800px) {
+  #containerProImg{
+    max-width: 340px;
+  }
+  
+}
+@media screen and (min-width:801px) and (max-width: 1280px) {
+  #containerProImg{
+    max-width: 840px
+  }
+}
+
+@media screen and (min-width:1281px) {
+  #containerProImg{
+    max-width: 1280px;
+  }
+  
+}
