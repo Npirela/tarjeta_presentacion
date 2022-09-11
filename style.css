@@ -9,10 +9,34 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
+
+
+
+@media screen and (min-width:500px) and (max-width: 800px) {
+  #containerProImg{
+    max-width: 240px;
+    max-height: auto;
+  }
+  
+}
+@media screen and (min-width:801px) and (max-width: 1280px) {
+  #containerProImg{
+    max-width: 840px
+  }
+}
+
+@media screen and (min-width:1281px) {
+  #containerProImg{
+    max-width: 1280px;
+  }
+  
+
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+
+}
 
  html {
     line-height: 1.15; /* 1 */
@@ -87,7 +111,7 @@ animation: AnimateBG 20s ease infinite;
 }
  
 a{
-  color: white !important ;
+  color: white  ;
   font-family: 'Dosis', sans-serif;
   font-weight: bolder;
 }
@@ -427,21 +451,3 @@ a{
     display: none;
   }
 
-@media screen and (min-width:500px) and (max-width: 800px) {
-  #containerProImg{
-    max-width: 340px;
-  }
-  
-}
-@media screen and (min-width:801px) and (max-width: 1280px) {
-  #containerProImg{
-    max-width: 840px
-  }
-}
-
-@media screen and (min-width:1281px) {
-  #containerProImg{
-    max-width: 1280px;
-  }
-  
-}
