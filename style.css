@@ -132,7 +132,13 @@ a{
     padding-bottom: 40px;
     
   }
-  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  #whatsappBtn:hover{
+  color: white;
+  }
   /**
    * Correct the font size and margin on `h1` elements within `section` and
    * `article` contexts in Chrome, Firefox, and Safari.
